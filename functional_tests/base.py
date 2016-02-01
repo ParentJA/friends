@@ -1,5 +1,3 @@
-__author__ = 'jason.parent@carneylabs.com (Jason Parent)'
-
 # Standard library imports...
 import time
 

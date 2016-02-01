@@ -1,19 +1,17 @@
-__author__ = 'jason.parent@carneylabs.com (Jason Parent)'
-
 # Third-party imports...
-from mock import Mock
-from mock import patch
+from mock import Mock, patch
 
 # Django imports...
 from django.contrib.auth import get_user_model
 from django.core.urlresolvers import reverse
 from django.test.client import RequestFactory
-from django.test import Client
-from django.test import TestCase
+from django.test import Client, TestCase
 
 # Local imports...
 from ..models import Friendship
 from ..views import home_view
+
+__author__ = 'Jason Parent'
 
 User = get_user_model()
 

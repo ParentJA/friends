@@ -1,5 +1,3 @@
-__author__ = 'jason.parent@carneylabs.com (Jason Parent)'
-
 # Standard library...
 import operator
 
@@ -8,12 +6,12 @@ from django.contrib.auth import get_user_model
 from django.contrib.auth.decorators import login_required
 from django.core.urlresolvers import reverse
 from django.db.models import Q
-from django.shortcuts import get_object_or_404
-from django.shortcuts import redirect
-from django.shortcuts import render
+from django.shortcuts import get_object_or_404, redirect, render
 
 # Local imports...
 from .models import Friendship
+
+__author__ = 'Jason Parent'
 
 User = get_user_model()
 

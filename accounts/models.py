@@ -1,11 +1,11 @@
-__author__ = 'jason.parent@carneylabs.com (Jason Parent)'
-
 # Third-party imports...
 from localflavor.us.models import PhoneNumberField
 
 # Django imports...
 from django.contrib.auth.models import AbstractUser
 from django.db import models
+
+__author__ = 'Jason Parent'
 
 
 class User(AbstractUser):

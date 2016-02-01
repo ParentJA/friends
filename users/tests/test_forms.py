@@ -1,10 +1,10 @@
-__author__ = 'jason.parent@carneylabs.com (Jason Parent)'
-
 # Django imports...
 from django.test import TestCase
 
 # Local imports...
 from ..forms import ProfileForm
+
+__author__ = 'Jason Parent'
 
 
 class ProfileFormTest(TestCase):

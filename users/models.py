@@ -1,11 +1,10 @@
-__author__ = 'jason.parent@carneylabs.com (Jason Parent)'
-
 # Django imports...
 from django.conf import settings
 from django.db import models
-from django.db.models import Q
-from django.db.models import QuerySet
+from django.db.models import Q, QuerySet
 from django.utils import timezone
+
+__author__ = 'Jason Parent'
 
 AUTH_USER_MODEL = getattr(settings, 'AUTH_USER_MODEL')
 

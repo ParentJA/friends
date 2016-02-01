@@ -1,1 +1,1 @@
-__author__ = 'jason.parent@carneylabs.com (Jason Parent)'
+__author__ = 'Jason Parent'

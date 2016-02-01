@@ -1,8 +1,8 @@
-__author__ = 'jason.parent@carneylabs.com (Jason Parent)'
-
 # Django imports...
 from django.contrib.auth import get_user_model
 from django.test import TestCase
+
+__author__ = 'Jason Parent'
 
 User = get_user_model()
 

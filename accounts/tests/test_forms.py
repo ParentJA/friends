@@ -1,5 +1,3 @@
-__author__ = 'jason.parent@carneylabs.com (Jason Parent)'
-
 # Django imports...
 from django.contrib.auth import get_user_model
 from django.contrib.auth.models import AnonymousUser
@@ -7,9 +5,9 @@ from django.http import HttpRequest
 from django.test import TestCase
 
 # Local imports...
-from ..forms import LogInForm
-from ..forms import ProfileForm
-from ..forms import SignUpForm
+from ..forms import LogInForm, ProfileForm, SignUpForm
+
+__author__ = 'Jason Parent'
 
 User = get_user_model()
 

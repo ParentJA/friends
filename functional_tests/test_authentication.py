@@ -1,10 +1,10 @@
-__author__ = 'jason.parent@carneylabs.com (Jason Parent)'
-
 # Django imports...
 from django.contrib.auth import get_user_model
 
 # Local imports...
 from .base import FunctionalTest
+
+__author__ = 'Jason Parent'
 
 User = get_user_model()
 

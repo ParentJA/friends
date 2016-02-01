@@ -1,8 +1,5 @@
-__author__ = 'jason.parent@carneylabs.com (Jason Parent)'
-
 # Third-party imports...
-from mock import Mock
-from mock import patch
+from mock import Mock, patch
 
 # Django imports...
 from django.contrib.auth import get_user_model
@@ -11,12 +8,9 @@ from django.test.client import RequestFactory
 from django.test import TestCase
 
 # Local imports...
-from ..views import home_view
-from ..views import log_in_view
-from ..views import log_out_view
-from ..views import profile_view
-from ..views import profile_edit_view
-from ..views import sign_up_view
+from ..views import home_view, log_in_view, log_out_view, profile_view, profile_edit_view, sign_up_view
+
+__author__ = 'Jason Parent'
 
 User = get_user_model()
 

@@ -1,5 +1,3 @@
-__author__ = 'jason.parent@carneylabs.com (Jason Parent)'
-
 # Django imports...
 from django.conf import settings
 from django.contrib.auth import get_user_model
@@ -8,6 +6,8 @@ from django.template.defaulttags import date
 # Local imports...
 from .base import FunctionalTest
 from users.models import Friendship
+
+__author__ = 'Jason Parent'
 
 User = get_user_model()
 

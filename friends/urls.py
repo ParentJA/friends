@@ -1,12 +1,10 @@
-__author__ = 'jason.parent@carneylabs.com (Jason Parent)'
-
 # Django imports...
 from django.conf import settings
-from django.conf.urls import include
-from django.conf.urls import patterns
-from django.conf.urls import url
+from django.conf.urls import include, patterns, url
 from django.conf.urls.static import static
 from django.contrib import admin
+
+__author__ = 'Jason Parent'
 
 admin.autodiscover()
 

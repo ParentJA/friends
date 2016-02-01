@@ -1,17 +1,13 @@
-__author__ = 'jason.parent@carneylabs.com (Jason Parent)'
-
 # Django imports...
-from django.contrib.auth import login
-from django.contrib.auth import logout
+from django.contrib.auth import login, logout
 from django.contrib.auth.decorators import login_required
 from django.core.urlresolvers import reverse
-from django.shortcuts import redirect
-from django.shortcuts import render
+from django.shortcuts import redirect, render
 
 # Local imports...
-from .forms import LogInForm
-from .forms import ProfileForm
-from .forms import SignUpForm
+from .forms import LogInForm, ProfileForm, SignUpForm
+
+__author__ = 'Jason Parent'
 
 
 def home_view(request):
